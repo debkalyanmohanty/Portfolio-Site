@@ -51,7 +51,21 @@ body{
         display: flex;
     }
     .links{
-        display:none;
+         display:none;
+         width: 100%;
+    }
+    .links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .links li{
+        text-align: center;
+    }
+    .links li a{
+        padding: .5rem 1rem;
+    }
+    .links.active{
+        display: flex;
     }
 }
 .navb{
