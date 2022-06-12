@@ -29,7 +29,7 @@ body{
 .links li:hover{
     background-color:grey ;
 }
-.toggle{
+/* .toggle{
     position: absolute;
   top: .75rem;
   right:1rem;
@@ -38,7 +38,7 @@ body{
   justify-content: space-between;
   width: 30px;
   height: 21px;
-}
+} */
 .toggle .bar{
     height: 3px;
     width:100%;
@@ -47,9 +47,7 @@ body{
 
 }
 @media(max-width: 400px){
-    .toggle{
-        display: flex;
-    }
+    
     .links{
          display:none;
          width: 100%;
