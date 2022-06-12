@@ -1,0 +1,81 @@
+*{
+box-sizing: border-box;
+}
+body{
+    margin: 0 auto 0 auto;
+    background-image: url(images/krishnapankh.png);
+    display: relative;
+}
+.text{
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    font-size: 150%;
+}
+nav{
+    background-color: black;
+    text-align: center;
+    height: 50px;
+    color:aliceblue;
+    vertical-align: middle;
+    position: relative;
+    float: auto;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    /* background-color: white; */
+    /* border-radius: 15px; */
+    text-align: center;
+    border:50px ;
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    text-align: center;
+    
+    
+  
+}
+h1{
+    
+    color: white;
+    /* height: 500%; */
+
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+h2{
+    margin: 0;
+    color: whitesmoke;
+    height: 500%;
+}
+
+.Rights{
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    left: auto;
+    left:50%;
+    bottom: 10px;
+    background-color: black;
+    
+}
+
+p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+   
+}
+.name{ 
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.author{
+    text-align: center;
+}

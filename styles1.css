@@ -1,0 +1,31 @@
+body{
+    background-color: #B8FFF9;
+}
+hr{
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+h1{
+    color: #66BFBF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h3{
+    color: #66BFBF;
+    font-family:Arial, Helvetica, sans-serif  ;
+}
+a{
+   text-decoration: none;
+   
+}
+.logo{
+    width: 30px;
+}
+div{
+   text-align: center;
+}
+.Rights{
+    text-align: center;
+}
