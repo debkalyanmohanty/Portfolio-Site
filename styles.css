@@ -26,26 +26,10 @@ body{
     padding: 1rem;
     display: block;
 }
-.links li:hover{
+.links :hover{
     background-color:grey ;
 }
-/* .toggle{
-    position: absolute;
-  top: .75rem;
-  right:1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-} */
-.toggle .bar{
-    height: 3px;
-    width:100%;
-    background-color: white;
-    border-radius: 10px;
 
-}
 @media(max-width: 500px){
     .links{
         display: none;
