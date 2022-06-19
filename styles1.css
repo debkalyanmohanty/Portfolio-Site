@@ -29,3 +29,10 @@ div{
 .Rights{
     text-align: center;
 }
+.profileimg{
+    display: inline-block;
+    width: 100%;
+}
+td{
+    width: auto;
+}

@@ -41,6 +41,7 @@ body{
         width: 100%;
 
     }
+   
     
     
   
@@ -82,7 +83,7 @@ h2{
     font-size: 50px;
 }
 
-.Rights{
+/* .Rights{
     text-align: center;
     color: aliceblue;
     position: absolute;
@@ -91,7 +92,7 @@ h2{
     bottom: 10px;
     background-color: black;
     
-}
+} */
 
 p{
     color: white;
@@ -109,3 +110,60 @@ p{
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
 }
+hr{
+    border-style: dotted none none;
+    border-color: rgb(255, 247, 247);
+    border-width: 5px;
+    width: 5%;
+}
+.profileimg{
+    display: block;
+    width: 30%;
+    margin:0 auto 0 auto;
+    
+}
+td{
+    width: auto;
+    color: white;
+    font-family:  Arial, Helvetica, sans-serif
+}
+h3{
+    color: white;
+}
+.designation{
+    text-align: center;
+}
+a{
+    color: rgb(49, 249, 116);
+    text-decoration: none;
+}
+li{
+    color: white;
+}
+th{
+    color: white;
+}
+.logo{
+    width: 30px;
+}
+div{
+    text-align: center;
+ }
+ .social{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+ }
+ .Rights{
+    text-align: center;
+ }
+ .contact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+ }
+ label{
+    color: white;
+ }
+ form{
+    text-align: center;
+ }
