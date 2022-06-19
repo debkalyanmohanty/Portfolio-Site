@@ -1,5 +1,5 @@
 body{
-    background-color: #B8FFF9;
+    background-image: url(Images/krishnapankh.png);
 }
 hr{
     border-style: dotted none none;
@@ -35,4 +35,14 @@ div{
 }
 td{
     width: auto;
+}
+.list{
+    color: white;
+}
+.atag{
+    color: rgb(49, 249, 116);
+    text-decoration: none;
+}
+li{
+    color: rgb(49, 249, 116);
 }

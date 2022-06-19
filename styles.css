@@ -30,11 +30,11 @@ body{
     background-color:grey ;
 }
 
-@media(max-width: 400px){
+@media(max-width: 300px){
     
     
     .navb{
-        flex-direction: column;
+        flex-direction: row-reverse;
         align-items: flex-start;
     }
     .links ul{
