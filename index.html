@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DK's Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!-- stylesheet -->
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="Images/Deb Icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,23 +16,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Coda&family=Fredericka+the+Great&family=Great+Vibes&family=IM+Fell+English+SC&family=Monofett&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav class="navb">
-    <div class="text">Success Needs Sacrifice.</div>
+    <!-- Navbar -->
+<nav class="navbar navbar-expnad-lg navbar-dark">
+    <div class="text navbar-brand">Success Needs Sacrifice.</div>
     <!-- <a href="#" class ="toggle">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
         
     </a> -->
-    <div class="links">
-        <ul>
-    <li><a  href="index.html">Home</a></li>
-    <li><a  href="#about">About</a></li>
-    <li><a  href="#education">Education</a></li>
-    <li><a  href="#hobbies">Hobbies</a></li>
-    <li><a  href="#work">Work Experience</a></li>
-    <li><a  href="#skills">Skills</a></li>
-    <li><a  href="#contact">Contact</a></li>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+    <li class="nav-item"><a class="nav-link" href="#work">Work Experience</a></li>
+    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
     
     
     
@@ -39,10 +46,11 @@
 
     </ul>
 </div>
+<!-- About -->
 </nav>
  <div class="about" >
     <h1 >I'm Deb</h1>
-    <h2>Student</h2>
+    <h2>Learner,</h2>
     <h2>Programmer</h2>
     <br>
     <br>
@@ -62,13 +70,14 @@
     <img class="profileimg" src="Images/Deb Kalyan Mohanty.png" alt="Deb's Profile Photo " id="about">>
     
         <p class="designation"><em>STUDENT AT</em><br> <strong><a href="https://vssut.ac.in/" >VEER SURENDRA SAI UNIVERSITY OF TECHNOLOGY ,BURLA</a></strong> </em></p>
-        <p>Enthusiastic Professional Who Always Want To Learn New Things Everyday. Motivating Individual with strong work ethic and working independently , Strong Organizational and team collaboration skills with experiences in improving processes. Self Motivated and loves to lead to live a fit life and a life full of discipline. </p>
+        <p class="Intro">Enthusiastic Professional Who Always Want To Learn New Things Everyday. Motivating Individual with strong work ethic and working independently , Strong Organizational and team collaboration skills with experiences in improving processes. Self Motivated and loves to lead to live a fit life and a life full of discipline. </p>
     
 
 
 
 
 <hr>
+<!-- Education -->
 <h3 id="education">EDUCATION</h3>
 <ul>
 <li>AISSE , <strong><a href="http://www.stxavierskedargouri.in/">ST. XAVIER'S HIGH SCHOOL, KEDARGOURI </a></strong>, 2006 JANUARY-MAY 2019
@@ -89,7 +98,7 @@
 </li>
 </ul>
 <hr>
-
+<!-- Hobbies -->
 <h3 id="hobbies">HOBBIES</h3>
 <ol>
     <li>DANCING</li>
@@ -98,6 +107,7 @@
      <li><a href="https://open.spotify.com/playlist/729s4Ui6bg5RXmwBfrPiAX?si=TXRTQ8VdSoiowH8Jr_wnkQ&utm_source=copy-link" target="blank">LISTENING MUSIC</a> </li>
 </ol>
 <hr>
+<!-- Work Experience -->
 <h3 id="work">WORK EXPERIENCE</h3>
 <table >
     <thead>
@@ -134,43 +144,65 @@
 </table>
 
 <hr>
+<!-- Skills -->
+<div>
 <h3 id="skills">SKILLS</h3>
-<table cellspacing ="10 " >
+<div class="division">
+    <img class="git" src="Images/git.png" alt="Git image">
+    <h3  >Git</h3>
     
-    <tr>
-        <td><strong>Git</strong> </td>
-        <td>⭐⭐⭐⭐</td>
-        &nbsp;
-        &nbsp;
-        <td><strong>Team Management</strong> </td>
-        <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-        <td><strong>Git-Hub</strong></td>
-        <td>⭐⭐⭐⭐</td>
-        &nbsp;
-        &nbsp;
-        <td><strong>Java</strong></td>
-        <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-        <td><strong>Time Management</strong></td>
-        <td>⭐⭐⭐⭐</td>
-        &nbsp;
-        &nbsp;
-        <td><strong>Problem Solving</strong></td>
-        <td>⭐⭐</td>
-    </tr>
-    <tr>
-        <td><strong>Html</strong></td>
-        <td>⭐⭐⭐⭐</td>
-        &nbsp;
-        &nbsp;
-        <td><strong>Css</strong></td>
-        <td>⭐⭐</td>
-    </tr>
+    <p>Distributed Version Control System: Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers' computers.</p>
+   >
+</div>    
+<div class="division">
+    <img class="github" src="Images/github.png" alt="Git image">
+        <h3 >GitHub</h3>
+        
+    <p>GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests.</p>
    
-</table>
+</div>
+<div class="division">
+    <img class="Team" src="Images/management.png" alt="Git image">
+    <h3 >Team Management</h3>
+    
+    <p>Team management is a manager or organization's ability to lead a group of people in accomplishing a task or common goal. Effective team management involves supporting, communicating with and uplifting team members so they perform to the best of their abilities and continue to grow as professionals.</p>
+   
+</div>
+<div class="division">
+    
+    <img class="time" src="Images/timetable.png" alt="Git image">
+    <h3 >Time Management</h3>
+    <p>Time management is the process of organizing and planning how to divide your time between different activities. Get it right, and you'll end up working smarter, not harder, to get more done in less time – even when time is tight and pressures are high. The highest achievers manage their time exceptionally well.</p>
+   
+</div>
+<div class="division">
+    <img class="html" src="Images/html-5.png" alt="Git image">
+    <h3 >Html</h3>
+    <p>HTML is the language for describing the structure of Web pages. HTML gives authors the means to: Publish online documents with headings, text, tables, lists, photos, etc. Retrieve online information via hypertext links, at the click of a button.</p>
+    
+</div>
+<div class="division">
+   
+    <img class="css" src="Images/css-3.png" alt="Git image">
+    <h3 >Css</h3>
+    <p>CSS can be used to define the cell padding of table cells, the style, thickness, and color of a table's border, and the padding around images or other objects. CSS gives Web developers more exact control over how Web pages will look than HTML does.</p>
+    
+</div>
+<div class="division">
+    
+    <img class="Java" src="Images/java.png" alt="Git image">
+    <h3 >Java</h3>
+    <p>Developers use Java to construct applications in laptops, data centres, game consoles, scientific supercomputers, cell phones, and other devices. Java is the world's third most popular programming language, after Python and C – according to the TIOBE index, which evaluates programming language popularity.</p>
+   
+</div>
+<div class="division">
+    
+    <img class="problem" src="Images/idea.png" alt="Git image">
+    <h3 >Problem Solving</h3>
+     <p>Problem solving is the act of defining a problem; determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution. The problem-solving process. Problem solving resources.</p>
+    
+</div>
+</div>
 <hr>
 <h1 class="contact" id="contact">CONTACT ME</h1>
     <form action="mailto:debkalyanmohanty@gmail.com"  method="post" enctype="text/plain">

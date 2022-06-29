@@ -11,54 +11,8 @@ body{
       font-size: 1.5em;
       margin: .5em;
 }
-.links ul {
-    margin:0;
-    padding:0;
-    display: flex;
-}
-.links li{
-    list-style: none;
-    font-family: 'IM Fell English SC', serif;
-}
-.links li a{
-    text-decoration: none;
-    color:white;
-    padding: 1rem;
-    display: block;
-}
-.links a:hover{
-    background-color:grey ;
-}
 
-@media(max-width: 300px){
-    
-    
-    .navb{
-        flex-direction: row-reverse;
-        align-items: flex-start;
-    }
-    .links ul{
-        width: 100%;
 
-    }
-   
-    
-    
-  
-}
-.navb{
-    background-color: black;
-    
-    
-    color:aliceblue;
-    vertical-align: middle;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    
-}
 
 .about{
     text-align: center;
@@ -69,11 +23,11 @@ body{
 h1{
     
     color: white;
-     height: 500%; 
+    height: 500%; 
 
-    font-family: 'Great Vibes', cursive,Arial;
+    font-family: 'Great Vibes', cursive ,Arial;
     font-size: 100px;
-   
+
 }
 h2{
     margin: 0;
@@ -115,6 +69,7 @@ hr{
     border-color: rgb(255, 247, 247);
     border-width: 5px;
     width: 5%;
+    margin:7% auto 7% auto ;
 }
 .profileimg{
     display: block;
@@ -134,8 +89,11 @@ h3{
     text-align: center;
 }
 a{
-    color: rgb(49, 249, 116);
+    color: white;
     text-decoration: none;
+}
+a:hover{
+    color:rgb(49, 249, 116) ;
 }
 li{
     color: white;
@@ -148,22 +106,85 @@ th{
 }
 div{
     text-align: center;
+   
  }
- .social{
+.social{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
  }
- .Rights{
+.Rights{
     text-align: center;
  }
- .contact{
+.contact{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.5rem;
     text-align: center;
  }
- label{
+label{
     color: white;
  }
- form{
-    text-align: center;
+form{
+   text-align: center;
  }
+ .Intro{
+    line-height: 2;
+ }
+thead{
+    letter-spacing: 2px;
+}
+td{
+    letter-spacing: 2px;
+}
+th,td{
+    padding: 15px;
+}
+
+div img{
+    width: 25%;
+}
+.division{
+    padding: 40px;
+    margin: 100px;
+    line-height: 2;
+    width: 100%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+   
+  
+}
+.git{
+    width: 25%;
+    float: left;
+}
+.github{
+    width: 25%;
+    float: right;
+}
+.Team{
+    width: 25%;
+    float: left;
+}
+.time{
+    width: 25%;
+    float: right;
+}
+.html{
+    width: 25%;
+    float: left;
+}
+.css{
+    width: 25%;
+    float: right;
+}
+.Java{
+    width: 25%;
+    float: left;
+}
+.problem{
+    width: 25%;
+    float: right;
+}
+
+
+
