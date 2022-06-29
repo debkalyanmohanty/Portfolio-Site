@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box ;
+    
 }
 body{
     margin: 0 auto 0 auto;
@@ -27,6 +28,7 @@ h1{
 
     font-family: 'Great Vibes', cursive ,Arial;
     font-size: 100px;
+    padding: 5%;
 
 }
 h2{
@@ -35,6 +37,10 @@ h2{
     height: 500%;
     font-family: 'Coda', cursive,Arial, Helvetica, sans-serif;
     font-size: 50px;
+    
+}
+.tagline{
+    padding: 5%;
 }
 
 /* .Rights{
@@ -84,9 +90,12 @@ td{
 }
 h3{
     color: white;
+    padding-bottom:5% ;
 }
 .designation{
     text-align: center;
+    font-size: 2.5rem;
+    padding: 3% 6%;
 }
 a{
     color: white;
@@ -128,6 +137,9 @@ form{
  }
  .Intro{
     line-height: 2;
+    font-size: 1.5rem;
+    padding: 3% 6%;
+    background-color: black;
  }
 thead{
     letter-spacing: 2px;
@@ -154,37 +166,69 @@ div img{
   
 }
 .git{
-    width: 25%;
+    width: 20%;
     float: left;
 }
 .github{
-    width: 25%;
+    width: 20%;
     float: right;
 }
 .Team{
-    width: 25%;
+    width: 20%;
     float: left;
 }
 .time{
-    width: 25%;
+    width: 20%;
     float: right;
 }
 .html{
-    width: 25%;
+    width: 20%;
     float: left;
 }
 .css{
-    width: 25%;
+    width: 20%;
     float: right;
 }
 .Java{
-    width: 25%;
+    width: 20%;
     float: left;
 }
 .problem{
-    width: 25%;
+    width: 20%;
     float: right;
 }
+.nav-link{
+    color: white;
+}
+.education-places{
+    font-size: 1.5rem;
+}
+.hobbies-list{
+    font-size: 1.5rem;
+}
+th{
+    font-size:2.5rem ;
+    
+}
+td{
+    font-size: 1.5rem;
+}
+.division h3{
+    font-size: 2.5rem;
+    font-family: 'Anton', sans-serif;
 
+}
+.division p{
+    font-size: 1.5rem;
+    padding: 0 5% 10%;
+    
+}
+.hobbies-list{
+    padding: 5% 10%;
+    text-align: center;
+}
+.row img{
+    width: 100px;
+    
 
-
+}
