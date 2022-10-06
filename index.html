@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DK's Site</title>
+    <title>DK</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <!-- stylesheet -->
@@ -34,7 +34,7 @@
     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
     <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
-    <li class="nav-item"><a class="nav-link" href="#work">Work Experience</a></li>
+    <!-- <li class="nav-item"><a class="nav-link" href="#work">Work Experience</a></li> -->
     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
     
@@ -78,7 +78,7 @@
 
 <hr>
 <!-- Education -->
-<h3 id="education">EDUCATION</h3>
+<h3 id="education" style="text-align:center;">EDUCATION</h3>
 <ul class="education-places">
 <li>AISSE , <strong><a href="http://www.stxavierskedargouri.in/">ST. XAVIER'S HIGH SCHOOL, KEDARGOURI </a></strong>, 2006 JANUARY-MAY 2019
     <br>
@@ -99,7 +99,7 @@
 </ul>
 <hr>
 <!-- Hobbies -->
-<h3 id="hobbies">HOBBIES</h3>
+<h3 id="hobbies"  style="text-align: center;">HOBBIES</h3>
 <div class="row">
 <div class="col-lg-3 col-md-6 hobbies-list">
     <img src="Images/dance.png" alt="">
@@ -115,21 +115,19 @@
         <img src="Images/listening.png" alt="">
         <h2><a href="https://open.spotify.com/playlist/729s4Ui6bg5RXmwBfrPiAX?si=TXRTQ8VdSoiowH8Jr_wnkQ&utm_source=copy-link" target="blank">LISTENING MUSIC</a> </h2></div>
     </div>
-<hr>
+<!-- <hr> -->
 <!-- Work Experience -->
-<h3 id="work">WORK EXPERIENCE</h3>
+<!-- <h3 id="work">WORK EXPERIENCE</h3>
 <table >
     <thead>
         <th>Dates</th>
         &nbsp;
         &nbsp;
-        &nbsp;
-        &nbsp;
+        
         <th>Company</th>
         &nbsp;
         &nbsp;
-        &nbsp;
-        &nbsp;
+      
         <th>Designation</th>
     </thead>
     <tbody>
@@ -143,18 +141,18 @@
            <td>Member</td>
            &nbsp;
            &nbsp;
-           <!-- <td><img src="" alt="Company Logo" width="10%"></td> -->
-        </tr>
+           <td><img src="" alt="Company Logo" width="10%"></td> -->
+        <!-- </tr>
         <br>
        
 
 </tbody>
 
-</table>
+</table> -->
 
-<hr>
+<hr> -->
 <!-- Skills -->
-<div>
+<div class="skills">
 <h3 id="skills">SKILLS</h3>
 <div class="division">
     <img class="git" src="Images/git.png" alt="Git image">
@@ -162,7 +160,7 @@
         <br> 
         ⭐⭐⭐⭐</h3>
     
-    <p>Distributed Version Control System: Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers' computers.</p>
+    <p class="git-text">Distributed Version Control System: Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers' computers.</p>
    >
 </div>    
 <div class="division">
@@ -215,8 +213,9 @@
 </div>
 </div>
 <hr>
+<div class="contact-me">
 <h1 class="contact" id="contact">CONTACT ME</h1>
-    <form action="mailto:debkalyanmohanty@gmail.com"  method="post" enctype="text/plain">
+    <form action="mailto:debkalyanmohanty@gmail.com"  method="post" enctype="text/plain" class="form-contact">
         <label for="">Name: </label>
         <input type="text" name="name" id=""> <br>
         <br>
@@ -228,10 +227,12 @@
        
         <input type="submit" name="submit">
     </form>
+</div>
     <hr>
     <div >
         <h4 class="social">Social Media</h4>
-        <a class=" logo1 " href="https://github.com/debkalyanmohanty"><img class="logo" src="Images/github.png" alt="github logo" ></a>
+       <div class="social-links">
+         <a class=" logo1 " href="https://github.com/debkalyanmohanty"><img class="logo" src="Images/github.png" alt="github logo" ></a>
         &nbsp;
         <a class=" logo1 "href="https://www.instagram.com/debkalyan.mohanty/"><img class="logo" src="Images/instagram.png" alt="instagram logo"></a>
         &nbsp;
@@ -241,6 +242,7 @@
         &nbsp;
         <a class=" logo1 "href="https://twitter.com/mohantydebk"><img class="logo" src="Images/twitter.png" alt="twitter logo"></a>
         &nbsp;
+       </div>
         <br>
         <h3 class="Rights">All Rights Reserved</h3>
         <p class="Rights">@Deb Kalyan Mohanty</p>
