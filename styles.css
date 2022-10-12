@@ -50,7 +50,10 @@ hr{
 td{
     width: auto;
     color: white;
-    font-family:  Arial, Helvetica, sans-serif
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    letter-spacing: 0.5px;
 }
 a{
     color: white;
@@ -75,20 +78,16 @@ label{
 form{
    text-align: center;
  }
- /* thead{
-    letter-spacing: 2px;
+thead{
+    letter-spacing: 0.5px;
 }
 
 th{
-    font-size:2rem ;
+    font-size:30px ;
     padding: 15px;
     
 }
-td{
-    font-size: 1.5rem;
-    padding: 15px;
-    letter-spacing: 2px;
-} */
+
 
 /* Navbar */
 
@@ -170,8 +169,6 @@ td{
 }
 .row img{
     width: 100px;
-    
-
 }
 
 
